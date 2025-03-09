@@ -1,3 +1,2 @@
-1.just compile the files with the following command clang -Xpreprocessor -fopenmp cmp.c -o cmp  -lomp -I$(brew --prefix libomp)/include -L$(brew --prefix libomp)/lib
-2.Execute the file with the following command : ./cmp  largegraph.txt 0  
-3.  just check the screenshot I attached in the report for the further execution
+# ParallelProgramming
+implementation and performance analysis of a parallelized version of Dijkstra's algorithm for shortest path computation in a weighted graph. The algorithm leverages OpenMP for parallelization, comparing its performance against a sequential implementation
